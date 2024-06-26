@@ -1,0 +1,200 @@
+================================ Javascript 26-06-2024 ===========================
+
+About javascript:
+
+1) what is javascript.
+
+2) puprpose of javascript.
+
+3) javascript is programming or interpreter language.
+
+4) difference between programming and interpreter language.
+
+5) how javascript code will run.
+
+6) what is v8 engine.
+
+7) give some javascript based front-end and api frameworks.
+
+===================================================================================
+
+javascript fundamentals basic 1:
+
+1) what are the data types can use in javascript give all types
+
+2) difference between premitive and reference data types
+
+3) give example for primitive and reference data types
+
+4) different types to declare the variables in javascript give example. 
+
+5) difference between 'let' , 'const' and 'var' keywords in javascript.
+
+6) what is object in javascript.
+
+7) what is array in javascript.
+
+8) what is map and set data type and why using give example.
+
+9) how to store different types of data in single variable give example .
+
+10) what is function in javascript.
+
+11) give some conditional and looping statements in javascript with examples.
+
+12) how to looping the array data
+
+
+===================================================================================
+
+javascript fundamentals basic 2:
+
+1) what is class in javascript.
+
+2) javascript will support OOPS concepts.
+
+3) what is OOPS concepts explain.
+
+4) usege of function in javascript.
+
+5) what are the ways to define and use functions in javascript
+
+6) what is callback function
+
+7) difference between arguments and parameters.
+
+8) javascript is a functional programming language then why ?.
+
+9) give ES6 array methods.
+
+10) difference between map, filter and forEach methods.
+
+11) give traditional looping methods.
+
+12) what is hoisting in javascript.
+
+13) types of hoisting in javascript.
+
+14) explain variable hoisting, function hoisting with example.
+
+15) clousers in javascript
+
+16) explain scop execution in javascript.
+
+17) what is lexical scoping in javascript.
+
+18) what function curry and how to use it.
+
+19) pure and impure function in javascript.
+
+20) how to find the element from array with example
+
+21) difference between indexOf and findIndex methods
+
+===================================================================================
+
+javascript fundamentals basic 3:
+
+1) how to add and remove keys in object
+
+2) how to add element to last position in array.
+
+3) add element to the first position in array.
+
+4) remove first and last element in array.
+
+5) extract keys from object with example.
+
+6) loop over the object.
+
+7) find object length.
+
+8) loop 'ASSDFGHJJJKL' given string.
+
+9) what is template literals with example
+
+10) if some function have no return key then which value will be return.
+
+11) what is callback hell give example.
+
+12) how to make API calls in javascript.
+
+13) how to type cast data in javascript number to string (or) string to number.
+
+14) what is destructure in javascript with example .
+
+15) difference between rest and spread operators in javascript.
+
+16) how to handle error in javascript give example.
+
+17) custome error throw.
+
+18) how to clone reference type data with example.
+
+19) call-by-reference and call-by-value difference.
+
+20) function overloading and function signature in javascript.
+
+21) what is function signature and function signature will support in javascript.
+
+22) what is operators overloading and operators overloading will support javascript.
+
+23) what king of inheritance will support javascript.
+
+24) what is prototype in javascript.
+
+25) explain prototypal inheritance.
+
+===============================================================================
+
+javascript fundamentals basic 4:
+
+1) commonjs and module in javascript
+
+2) difference between require and import for importing javascript code.
+
+3) what is promise why using
+
+4) async and await fnuction methdos give example.
+
+5) javascript is a synchronous  or asynchronous language.
+
+6) difference between synchronous and  asynchronous.
+
+7) what is optional chaining in javascript.
+
+8) explain null cloaching operators example.
+
+9) give example for calling methdo like chaining.
+
+10) how to export members in javascript.
+
+11) what is localstorage and use of localstorage.
+
+12) what is session storage
+
+13) cookies in javascript
+
+14) difference between typescript and javascript
+
+15) what is DOM and explain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

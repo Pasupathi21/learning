@@ -1,0 +1,108 @@
+================================ 26-06-2024 ======================
+
+Node.js basic 1:
+
+1) what is node.js
+
+2) node.js is a programming language or what explain.
+
+3) core modules of node.js
+
+4) why node.js
+
+5) how javascript code will run on node.js explain
+
+6) how to access files with node.js
+
+7) what is event loop in node.js give brief explain
+
+8) explain callstack
+
+9) micro and macro queues in event loop
+
+10) node.js is single or multi thread
+
+11) if node.js is single thread means how it will handle multiple process at the time.
+
+12) node.js will support parallel processing.
+
+13) node.js event module usages.
+
+14) why node.js doesn't support DOM
+
+======================================================
+
+Node.js basic 2:
+
+1) what is npm explain
+
+2) why using npm.
+
+3) how to initiate the node.js project
+
+4) what is package.json and package-lock.json and difference.
+
+5) what is express.js and why using express.js
+
+6) give basic folder structure for node with express.js
+
+7) what is node_modules
+
+8) how to add and remove package in node_modules.
+
+9) difference between dependencies and devDependencies and usages.
+
+========================================================================
+
+
+Node.js basic 3:
+
+1) what is OOPS concepts.
+
+2)  explain OOPS concepts.
+
+3) what is class 
+
+4) difference between private and protected methdos in class
+
+5) what is constructor in class
+
+6) how to get class instance 
+
+7) what is inheritance in class
+
+8) why using super keyword in constructor.
+
+9) how inheritance one class to another class.
+
+10) difference between promise allsettled and promise race methods
+
+11) what is static methods
+
+12) give some promise static methods
+
+13) how to define static methdos
+
+14) what is util module have in node.js
+
+15) what is decorator in javascript.
+
+16) give example for decorator and how to use it.
+
+17) what is dependencies injection 
+
+18) explain observables and singleton pattern.
+
+19) what is gracefully shoutdown in node.js
+
+20) How does Node.js handle asynchronous operations?
+
+21) What are streams in Node.js?
+
+22) What are buffers in Node.js?
+
+23) What is the difference between require and import in Node.js?
+
+
+
+
