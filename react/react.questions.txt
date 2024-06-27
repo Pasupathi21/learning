@@ -1,0 +1,97 @@
+git link: https://github.com/sudheerj/reactjs-interview-questions
+
+============================ 27-06-2024 ================================
+
+react fundamentals basic 1
+
+1) what is react why using react.
+
+2) react is library or framework.
+
+3) difference between library and framework.
+
+4) why react is framework.
+
+=====================================================================
+
+react fundamentals basic 2
+
+1) react file extension
+
+2) explain tsx or jsx extension in react
+
+3) typs of react hooks 
+
+4) react hooks execution order
+
+5) props and state difference
+
+6) how to pass props in another component
+
+7) props drilling in react explain
+
+8) what is useContext 
+
+9) where to use useContext give example
+
+10) difference between useState and useEffect
+
+11) use of dependencies in hooks
+
+12) difference between useMemo and useCallback
+
+13) what is clousers
+
+14) function curry
+
+15) how to use useReduce
+
+16) higher order component in react
+
+17) how to avoid render issue in react component
+
+===================================================================================
+
+
+react fundamentals basic 3
+
+1) what is style bleed
+
+2)how to avoid style bleed in react
+
+3) react with typescript what 'd'extension file use
+
+4) folder structure of react and good practices
+
+5) use of react router DOM
+
+6) react code compile and execution steps explain.
+
+7) what is react-script.
+
+8) how to bundle react without react-script
+
+9) how to make API calls in react
+
+10) virtual DOM
+
+11) shadow DOM 
+
+12) difference between real DOM , virtual DOM and shadow DOM
+
+13) useRef and useImperative hooks explain
+
+14) parent to child props passing
+
+15) child to parent props passing without any state using
+
+16) how to handle global state management
+
+17) explain redux
+
+18) 
+
+
+
+
+

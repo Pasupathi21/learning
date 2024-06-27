@@ -1,3 +1,5 @@
+github link: https://github.com/Gauthamjm007/Backend-NodeJS-Golang-Interview_QA?tab=readme-ov-file#how-to-establish-mongodb-database-connection-in-a-node-application
+
 ================================ 26-06-2024 ======================
 
 Node.js basic 1:
@@ -102,6 +104,10 @@ Node.js basic 3:
 22) What are buffers in Node.js?
 
 23) What is the difference between require and import in Node.js?
+
+24) how to handle streams and buffer in node.js
+
+25) libuv core concepts and thread pool in node.js
 
 
 

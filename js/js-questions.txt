@@ -1,3 +1,5 @@
+github link: https://github.com/sudheerj/javascript-interview-questions
+
 ================================ Javascript 26-06-2024 ===========================
 
 About javascript:
@@ -178,6 +180,13 @@ javascript fundamentals basic 4:
 14) difference between typescript and javascript
 
 15) what is DOM and explain
+
+16) how javascript code compile and run on browser
+
+17) why using debounce fn in javascript
+
+18) explain debounce function syntax
+
 
 
 
