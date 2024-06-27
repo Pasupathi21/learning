@@ -1,0 +1,16 @@
+JAVASCRIPT:
+
+web apis
+    In chrome browser (like a platform) have different apis(piece of software)
+
+    - setTimeout --> timer
+    - fetch --> make api calls
+    - DOM --> access html elemnt through javascrit (DOM not a javascrit)
+    - localStorage, sessionStorage --> store minimum data as a string type
+
+    above mentioned things are part of browser not a javascrit thing.
+
+    Note: we can acces browser apis through the "windows" global object is available on chrome.
+
+===========================================================================================================
+

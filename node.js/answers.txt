@@ -1,0 +1,27 @@
+NODE.JS
+
+stream,buffer and binary in node.js
+    Binary:
+        Binary data is contain 1s and 0s stored in memory (eg: docs, images, audio or videos)
+
+    Buffer:
+        - Buffer is designed to handle binary data
+        - Buffer is not a data type
+        - Buffer is fixed size 
+        - javascrit can't handle binary data only handle string, so Buffer can interact the binary data
+
+    Stream:
+        -
+
+==================================================================================================
+
+Event Loop:
+    i) call-stack  ii) event-loop  iii) callback queue  --> micro and macro queues
+
+concurrency and parallelism in node.js
+
+    concurrency -> run multiple taskS within the single thread at same time (achieved by EVENT LOOP)
+
+    parallelism -> run mutliple task with worker thread(multiple thread) like CPU intensive process,
+                   cluster module will create child process (it means new RUNTIME INSTANCE ) it will perform tasks in
+                   parallely, each process communicate with IPC(inter process communication). and also cluster will use same port for all child process
