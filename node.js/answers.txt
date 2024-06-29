@@ -1,5 +1,44 @@
 NODE.JS
 
+node.js architecture 
+
+    - node.js is enviroment not a programming language
+    - Event-driven and Non-blocking
+    - node.js enviroment contains tow major parts
+        i) V8 engine ii) libuv
+
+        V8 engine:
+            - V8 engine created and developed by JS & c++ language.
+            - Main purpose of this engine is converting JS code into machine code and run on the system
+
+        libuv: 
+            - this is another on major core part of the node.js enviroment.
+            - fully implemented with c++ & JS
+
+            - libuv contain EVENT LOOP and THREAD POOLS (initially 4 THREAD POLLS)
+                i) EVENT LOOP  ii) THREAD POOLS
+
+                EVENT LOOP:
+                    - it perform to allocate and offload the process into threads
+                      heavy process(fs and promise based process) will offload into the thread POOLS
+                    
+                    - event loop having 4 major callback queues
+                       i) settimer-callback ii) I/O callback, iii)setImmediate-call iv) close callback
+
+                       I EVENT LOOP callback will execute above mentioned orders
+
+                       setTime --> setTimeout and setInterval expiration fn will execute
+
+                       I/O --> http networs callback will be execute
+
+                       setImmediate --> setImmediate is fn will be run after the I/O callback it will helpful for the 
+                                        running heavy process fn.
+                       close callback --> it will trigger all connection close related fn.
+                    
+
+
+
+
 stream,buffer and binary in node.js
     Binary:
         Binary data is contain 1s and 0s stored in memory (eg: docs, images, audio or videos)
@@ -20,8 +59,8 @@ Event Loop:
 
 concurrency and parallelism in node.js
 
-    concurrency -> run multiple taskS within the single thread at same time (achieved by EVENT LOOP)
+    concurrency -> run multiple tasks within the single thread at same time (achieved by EVENT LOOP)
 
     parallelism -> run mutliple task with worker thread(multiple thread) like CPU intensive process,
                    cluster module will create child process (it means new RUNTIME INSTANCE ) it will perform tasks in
-                   parallely, each process communicate with IPC(inter process communication). and also cluster will use same port for all child process
+                   parallely, each process communicate with IPC(inter process communication). and also cluster will use same port for all child processEVENT
