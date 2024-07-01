@@ -14,3 +14,72 @@ web apis
 
 ===========================================================================================================
 
+types of functions in JAVASCRIPT
+    1) function declaration 2) function expression 3) anonymous function 4)function curry 5) arrow function
+    6) Immediately invoked function expression 7) callback function 8) constructor function
+
+
+    function declaration: 
+
+        function define with name function declaration supports hoisting
+        eg:
+            function test(){
+                console.log('test)
+            }
+-----------------------------------------------------------------------------------------------
+    function expression:
+
+        Function expression not supports hoisting, because function is assign to the vairable
+        eg1:
+            var expression_fn = function () {
+                console.log('expression function)
+            }
+        eg2:
+            let arrow_exp = () => {
+                console.log("arrow based expression function")
+            }
+----------------------------------------------------------------------------------------------------
+
+    anonymous function:
+        Anonymouse function called as unnamed function, this type of function mostly for callback or Immediately invoked function expression (IIFE)
+
+        eg: [1,2,3].forEach(function(element){
+            console.log('Anonymous')
+        })
+------------------------------------------------------------------------------------------------------
+
+    Arrow function:
+        define function with arrow symbole instead of function keyword, arrow functions are more clean, readability and clean
+        this type function are use as callback function or function expression
+
+        eg: const arrow_fn = () => {
+            console.log('Arrow function)
+        }
+------------------------------------------------------------------------------------------------------
+    IIFE
+        This also anonymous function,  can't access the outside the function and this function is self invoking function
+
+        eg: 
+            (function(){
+                console.log('IIFE)
+            })()
+------------------------------------------------------------------------------------------------------
+
+    callback function:
+        function passed as a argument to another function
+        eg:
+            [1, 2, 4].map((item) => item *2)
+------------------------------------------------------------------------------------------------------
+
+    constructor function
+
+        constructor function declare with Pascal case fromat for naming convention and create instance with 
+        'new' keyword to access the all pros through the instance
+
+        eg:
+            function HelloWorld(){
+                this.message = "message from constructor function"
+            }
+
+            const helloWorld = new HelloWorld()
+            console.log(helloWorld.message)

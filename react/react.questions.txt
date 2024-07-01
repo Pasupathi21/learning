@@ -10,7 +10,7 @@ react fundamentals basic 1
 
 3) difference between library and framework.
 
-4) why react is framework.
+4) why react is library.
 
 =====================================================================
 
@@ -20,7 +20,7 @@ react fundamentals basic 2
 
 2) explain tsx or jsx extension in react
 
-3) typs of react hooks 
+3) typs of react hooks  
 
 4) react hooks execution order
 
@@ -89,7 +89,7 @@ react fundamentals basic 3
 
 17) explain redux
 
-18) 
+18) AOT and JIT compiation 
 
 
 
