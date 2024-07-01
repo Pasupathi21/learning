@@ -89,7 +89,7 @@ react fundamentals basic 3
 
 17) explain redux
 
-18) AOT and JIT compiation 
+18) AOT and JIT compilation 
 
 
 
