@@ -5,10 +5,10 @@ web apis
 
     - setTimeout --> timer
     - fetch --> make api calls
-    - DOM --> access html elemnt through javascrit (DOM not a javascrit)
+    - DOM --> access html elemnt through javascript (DOM not a javascript)
     - localStorage, sessionStorage --> store minimum data as a string type
 
-    above mentioned things are part of browser not a javascrit thing.
+    above mentioned things are part of browser not a javascript thing.
 
     Note: we can acces browser apis through the "windows" global object is available on chrome.
 
@@ -51,6 +51,7 @@ types of functions in JAVASCRIPT
     Arrow function:
         define function with arrow symbole instead of function keyword, arrow functions are more clean, readability and clean
         this type function are use as callback function or function expression
+        Note: arrow function doesn't have 'this' object, so we can't instanciate the arrow function
 
         eg: const arrow_fn = () => {
             console.log('Arrow function)
@@ -83,3 +84,47 @@ types of functions in JAVASCRIPT
 
             const helloWorld = new HelloWorld()
             console.log(helloWorld.message)
+-----------------------------------------------------------------------------------------------------------
+
+    first order function:
+        A function doesn't take any argument as a function and also, it doesn't return any function that is called 
+        first order function    
+        
+        eg:
+            function firstOrderFn(){ console.log('i am a first order function)}
+
+            firstOrderFn()
+-----------------------------------------------------------------------------------------------------------
+    higher order function:
+        A function takes function as a argument and return a new function it's called higher order function
+
+        eg:
+            const higherOrderFun = (fn) => return fn
+
+            const newFnFromHigher = higherOrderFun(() => { console.log("fn passed as a argument")})
+
+-----------------------------------------------------------------------------------------------------------
+    first class function in javascript:
+        In javascript we can use function in different ways , 
+        We can use function as 
+            i) argument(callback) 2) assign to vairable 3) return function from another fnction
+        above reasons function called as firstclass function in javascript
+
+-----------------------------------------------------------------------------------------------------------
+    unary function:
+        which function wil takes only on argument that is called as unary function
+        eg:
+            const fn = (oneArg) => console.log(oneArg)
+            fn('unary function')
+
+-----------------------------------------------------------------------------------------------------------
+    pure function:
+        function result or return value only depends on the function parameters, 
+        and this function context doesn't affect any side effects(it will not change any value and context of the outside)
+
+        eg: 
+            const pureFn = (argument) => return `Your given input value is: ${argument}`
+            pureFn('I am pure function')
+
+-----------------------------------------------------------------------------------------------------------
+
