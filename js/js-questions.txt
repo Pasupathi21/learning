@@ -141,7 +141,7 @@ javascript fundamentals basic 3:
 
 22) what is operators overloading and operators overloading will support javascript.
 
-23) what king of inheritance will support javascript.
+23) what kind of inheritance will support javascript.
 
 24) what is prototype in javascript.
 
