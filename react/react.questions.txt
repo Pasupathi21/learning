@@ -9,8 +9,16 @@ react fundamentals basic 1
 2) react is library or framework.
 
 3) difference between library and framework.
+ library:
+     A library is a collection of reusable functions, modules, or components that you can call when neede
+
+ framework:
+    A framework provides a structured environment or "skeleton" for building applications, enforcing certain rules and patterns
 
 4) why react is library.
+    i)   React is considered a library rather than a framework because of its primary focus and the way it provides functionality.
+    ii)  React is designed specifically for building user interfaces (UIs).
+    iii) React only deals with the view layer of the application (the "V" in MVC). It doesn’t provide solutions for things like routing, HTTP requests, or state management out of the box.
 
 =====================================================================
 
@@ -22,9 +30,66 @@ react fundamentals basic 2
 
 3) typs of react hooks  
 
+    useState    - State management.
+    useEffect   - Side effects management.
+    useContext  - Access to context
+    useRef      - Mutable values and DOM access.
+    useMemo     - Memoize expensive calculations
+    useCallback - Memoize functions.
+    useLayoutEffect - DOM manipulations after render but before paint.
+    useForwardRef   - 
+    useImperativeHandle - Expose instance values to parent.
+    useDebugValue       - Debugging information for custom hooks.
+    useReducer          - Complex state logic
+
+    useState: 
+        i) Manages state in a functional component.
+        ii)It initializes a state variable and provides a function to update that state.
+        iii) useState is the most basic hook used for managing local state. 
+             
+    useEffect: 
+        i) useEffect replaces lifecycle methods like componentDidMount, componentDidUpdate, and componentWillUnmount. 
+           The second argument (dependency array) allows you to optimize re-execution by only running the effect when specific values change.
+        ii) It runs after every render by default, but you can control when it re-runs using a dependency array.
+
+    useContext:
+        i)   Accesses the React context within a functional component.
+        ii)  It allows components to subscribe to a context without using the Context.Consumer API.
+        iii) useContext simplifies consuming context in functional components, allowing you to access context values directly.
+
+    useReducer: 
+        i) An alternative to useState for managing more complex state logic.
+        ii) useReducer is useful for complex state logic, 
+            especially when the next state depends on the previous one or when handling multiple sub-values.
+    useRef: 
+        i) Creates a mutable reference that persists across renders, 
+            commonly used to access DOM elements or store mutable values.
+        ii) useRef is often used to access or manipulate DOM elements directly or store values that don't cause re-renders when updated.
+
+    useMemo: 
+        i)  Memoizes expensive computations so they’re only re-computed when their dependencies change.
+        ii) Optimizes performance by caching the result of expensive calculations.
+        iii) useMemo prevents recalculating values unnecessarily by storing the result of the computation unless its dependencies change.
+
+    useCallback :
+        i) Memoizes functions to prevent unnecessary re-creation of functions on each render.
+    
+    useLayoutEffect:
+        i) useLayoutEffect is similar to useEffect but runs after rendering and before the browser updates the screen, 
+           useful for reading layout from the DOM.
+
+    useImperativeHandle: 
+        i) useImperativeHandle is used with forwardRef to allow child components to expose specific functions or values to the parent component via ref.
+
 4) react hooks execution order
 
 5) props and state difference
+    Props: Passed from parent to child and are immutable. 
+          They are used to configure components and make them reusable.
+
+    State:  Managed within the component itself and is mutable. 
+          It holds data that can change and affect the component’s output dynamically.
+
 
 6) how to pass props in another component
 
@@ -78,6 +143,11 @@ react fundamentals basic 3
 11) shadow DOM 
 
 12) difference between real DOM , virtual DOM and shadow DOM
+    Shadow DOM: 
+        Shadow DOM is used for encapsulation of elements and styles within web components, providing isolation and preventing conflicts with the rest of the document.
+
+    Virtual DOM:
+        Virtual DOM is used in libraries like React to improve rendering performance by efficiently updating the real DOM after comparing it with a virtual representation.
 
 13) useRef and useImperative hooks explain
 

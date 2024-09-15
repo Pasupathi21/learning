@@ -1,0 +1,6 @@
+Design Pattern
+    - Reusable solutions for common software problem
+    - It makes code more maintainable, scalable and easy to understand
+
+    Three main type of design patterns
+     1) Creational patterns  2) Structural patterns 3) Behavioral patterns

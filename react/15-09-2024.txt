@@ -1,0 +1,7 @@
+1) state and props difference
+2) componet-didmount and unmount
+3) useEffect and useLayoutEffect difference
+4) difference between fetch and aioxs
+5) useContext explain 
+6) what is functional component
+7) diff functional and class component

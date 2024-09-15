@@ -15,7 +15,7 @@ node.js architecture
             - this is another on major core part of the node.js enviroment.
             - fully implemented with c++ & JS
 
-            - libuv contain EVENT LOOP and THREAD POOLS (initially 4 THREAD POLLS)
+            - libuv contain EVENT LOOP and THREAD POOLS (initially 4 THREAD POOLS)
                 i) EVENT LOOP  ii) THREAD POOLS
 
                 EVENT LOOP:
@@ -34,6 +34,9 @@ node.js architecture
                        setImmediate --> setImmediate is fn will be run after the I/O callback it will helpful for the 
                                         running heavy process fn.
                        close callback --> it will trigger all connection close related fn.
+
+        Event Loop:
+            i) call-stack  ii) event-loop  iii) callback queue  --> micro and macro queues
                     
 
 
@@ -54,8 +57,7 @@ stream,buffer and binary in node.js
 
 ==================================================================================================
 
-Event Loop:
-    i) call-stack  ii) event-loop  iii) callback queue  --> micro and macro queues
+
 
 concurrency and parallelism in node.js
 

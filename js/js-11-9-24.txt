@@ -1,0 +1,24 @@
+1) Javascript Interpreter or Compiler language:
+    JavaScript is generally considered an interpreted language, but in modern implementations, 
+it has characteristics of both interpreted and compiled languages.
+
+Interpreter vs Compiler:
+    Interpreted Language: Code is executed line-by-line by an interpreter, translating it directly into machine code at runtime without the need for an intermediate compiled form.
+
+    Compiler Language: Code is translated into machine code ahead of time (before execution), and this compiled code is then run directly by the computer’s processor.
+
+Modern JS
+    Google’s V8 (used in Chrome and Node.js), employ Just-In-Time (JIT) compilation. This means the code is compiled to machine code just before it is executed, combining aspects of both interpretation and compilation for faster execution.
+
+Conclusion:
+JavaScript was historically interpreted, but with modern JIT compilation techniques, it blurs the line between interpreted and compiled languages, leading to faster and more efficient execution.
+
+======================================================================================================
+
+2) Node.js core modules
+    i) HTTP and HTTPS --> creating web server and handling req, res network related things
+   ii) fs             --> Read/Write and manipulate file
+  iii) path           --> Handling file path and directories
+   iv) util           --> Provides lot of utility method for exampl (handling callback ,debugger) related things
+   v) event           --> Allows working with events and event-driven programming.
+   vi) os             --> such as information about the current user, system memory, CPU,
