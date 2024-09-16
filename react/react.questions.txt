@@ -161,7 +161,46 @@ react fundamentals basic 3
 
 18) AOT and JIT compilation 
 
+===================================================================================
+
+1) state and props difference
+
+    state: 
+        Handled by within the component, state can be mutable based on the user interaction (input)
+    props:
+      i) Props is like a parameter of the function, 
+      ii)  Props are immutable, if we want to change the props, we can do only in the parent component.
+
+2) componet-didmount and unmount
+
+3) useEffect and useLayoutEffect difference
 
 
+4) difference between fetch and aioxs
+    fetch: 
+        i) Fetch is helps to make a api calls, And it is a browser API browser supports defaultly.
+    
+    axios: 
+        i) axios provides multiple methods to make api calls,
+        ii) This is JS NPM package, we should installed manually
 
+5) useContext explain 
+    i) useContext is a functional component hook available in the react .
+   ii) useContext is helps to handle Global state management in react.
+  iii) access the state value accross the multiple components within the context  
+   
+6) what is functional component
+
+7) diff functional and class component
+
+    class component:
+        i) Uses the ES6 class
+       ii) Class component have lifecycle methods , cannot use any hooks
+      iii) Less performance compare to functional component because 'this' keyword
+    
+    functional component:
+        i) This is just a javascript function return JSX element.
+        ii) Simple structure and fast compare to class components
+        iii) Provides different hooks for handling state and side-effects
+        iv) modern react uses only functional component.
 

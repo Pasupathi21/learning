@@ -1,0 +1,20 @@
+React vite build tool
+
+i)   Vite is build tool, vite supports multiple framework(vue.js) and library(react)
+ii)  vite increase and fast the bundle and developement time
+iii) In developement time vite uses the ES module directly on the browser.  
+iv)  For production, vite uses the Rollup(bundler) this will optimize and give the efficient bundle
+iii) Vite supports HMR (Hot Module Replace), This means when we update any module(s) in application, 
+     that particular module only reload or replaced in the browser instaed of reload the entire module
+
+vite build tool part:
+    esbuild : esbuild for converting Moder JS, JS, TSX into browser JS, in developement time 
+    rollup  : Rollup is bundler only usnig in production build 
+
+esbuild vs babel
+    babel:   Main purpose converting modern javascript and JSX into older browser compatible javascript code.
+    
+    esbuild : Transforming modern JS, TS, and JSX conde into javascript code
+              Main purpose is fast serving files and increase developement time (not support for different browser compatible like babel).
+
+    Note: vite config also supports babel plugin (vite.config.json)

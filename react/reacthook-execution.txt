@@ -1,0 +1,12 @@
+16-09-2024
+
+React hook execution order:
+    1) useState: Fist initialize the state value
+    2) useReducer(if your using usereducer instead of useState): initialized
+    3) useContext: If your using the useContext in that component context hook called after the statet initialization
+    4) useMemo: Called after the Context hook
+    5) useCall: Called after the memo hook
+    6) useRef: store the DOM reference, hook runs after the DOM redner phase, it doesn't re-runs
+    7) useImperativeHandle: Runs during the render phase
+    8) useLayoutEffect: synchronous type of running , runs after DOM update and before component re-rendesr time
+    9) useEffect: asynchronous type of ruuning,This will not affect UI render while running this hook (Called after UI fully render)
