@@ -1,0 +1,36 @@
+16-09-2024
+
+set 1
+
+1) types database languages
+2) explain DDL, DQL, TCL, DCL and DML 
+3) list conditional statements in postgresql
+4) list looping in postgresql
+5) logical operators in postgresql
+
+
+set 2
+
+1) write a query to list all databases
+2) write a query to list all tables
+3) write a query to select data from tables
+4) write q query to select data with where clause
+5) write a query to create tables 
+6) write a query to insert single and bulk data
+7) write a query to update single and bulk data
+8) write a query to remove data from table single row and multiple row
+9) write a query to truncate tables
+10) difference between delete table and truncate table
+11) alter table query (add column, remove column, change the table name and column type changes)
+
+
+set 3
+
+1) explain different types of joins in postgresql
+2) write a query with groupby, order by with limit
+3) what is aggreate function and uses
+4) write a query to use one aggregate function
+5) what is subquery
+6) explain subquery with syntax
+7) recursive query
+8) 'union' and 'union all' difference
