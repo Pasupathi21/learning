@@ -66,3 +66,7 @@ concurrency and parallelism in node.js
     parallelism -> run mutliple task with worker thread(multiple thread) like CPU intensive process,
                    cluster module will create child process (it means new RUNTIME INSTANCE ) it will perform tasks in
                    parallely, each process communicate with IPC(inter process communication). and also cluster will use same port for all child processEVENT
+
+what is event driven architecture ?
+
+what is stream in node.js    

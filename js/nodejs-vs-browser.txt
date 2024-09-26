@@ -50,6 +50,6 @@ Browser:
 Front-End Development: Used for building interactive and dynamic web content.
 
 Summary:
-Node.js is optimized for server-side execution with APIs for file I/O and network communication, using a single-threaded, event-driven model.
+    Node.js is optimized for server-side execution with APIs for file I/O and network communication, using a single-threaded, event-driven model.
 Browser engines are optimized for client-side execution, focusing on rendering web content, handling user interactions, and managing the DOM, with support for various web APIs.
 While both environments use the V8 engine in Chrome, their execution models and APIs are tailored to their specific use cases and performance requirements.

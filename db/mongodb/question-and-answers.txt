@@ -1,0 +1,25 @@
+17-09-2024
+
+MongoDB concepts & Good practices:
+    i) Document-Oriented Data Model
+   ii) Schema design
+  iii) Indexes
+   iv) Aggregation framework
+    v) Data Relationships
+            i) Embedding Document
+           ii) Referencing Document
+   vi) Transactions in MongoDB
+  vii) Sharding & Replication
+ viii) connection Pooling
+
+Best Practices for MongoDB:
+
+    Use Proper Indexes: Always index frequently queried fields to improve performance.
+
+    Avoid Large Documents: MongoDB has a document size limit of 16 MB. Use references if your documents are likely to grow.
+
+    Use Aggregation for Data Processing: Offload data processing to the database by using MongoDB’s powerful aggregation framework.
+
+    Backups and Replication: Ensure you have proper replication and backup strategies in place for high availability and disaster recovery.
+    
+    Connection Handling: Ensure proper error handling for database connection issues.
