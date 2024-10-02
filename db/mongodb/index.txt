@@ -1,3 +1,71 @@
 // 2024-09-23
 
 1) what is mongodb and usages?
+  MongoDB is a NoSQL, document-oriented database designed to store, manage, and retrieve large volumes of unstructured or semi-structured data. 
+Unlike traditional relational databases (like MySQL or PostgreSQL) that use tables and rows, MongoDB stores data in flexible, JSON-like documents, 
+making it highly scalable and suitable for modern applications.
+======================================================================================================
+
+2) Data types are available in MongoDB
+
+    String: Used to store text data. Commonly used in most documents.
+
+Integer: Stores numerical values. It can be 32-bit or 64-bit based on the requirement.
+
+Boolean: Stores true or false values.
+
+Double: Used to store floating-point values.
+
+Decimal128: Provides high precision for decimal values (e.g., for monetary data).
+
+Object: Embedded documents (also called subdocuments) where a document can hold another document.
+
+Array: Stores arrays or lists of values, which can be any type, including other arrays.
+
+ObjectId: A special type used to store unique identifiers for each document. This is MongoDB’s default ID for documents (_id).
+
+Date: Stores dates in milliseconds since the Unix epoch (January 1, 1970). Includes time data.
+
+Null: Represents a null or non-existent field.
+
+Regular Expression: Stores regular expression data for pattern matching.
+
+Binary Data: Stores binary data, such as images or other files.
+
+Timestamp: Special internal type for versioning of documents.
+
+Min/Max Keys: These types are used to compare values against the lowest and highest BSON elements, respectively.
+
+JavaScript Code: Stores JavaScript code that can be executed on the server.
+
+Symbol: Similar to strings but primarily used for special use cases, often in legacy systems.
+=====================================================================================================================
+
+
+3) what is Indexing in MongoDB ?
+    Indexing in MongoDB data retrieval technique can significantly enhance the performance of your queries, 
+    especially when dealing with large datasets.
+======================================================================================================================
+
+4) Types of indexes in MongoDB
+
+Single Field Index: Indexes created on a single field, such as { name: 1 }, improve query performance on that field.
+
+Compound Index: Created on multiple fields, allowing for optimized performance when querying across multiple fields. For example, an index on { age: 1, city: 1 } can speed up queries filtering on both fields.
+
+Wildcard Index: For collections with dynamic fields, wildcard indexes ({ "$**": 1 }) can be used to index all fields in documents.
+
+Sparse Index: Only indexes documents that contain the indexed field, reducing index size and improving performance in cases where a field is missing in many documents.
+
+TTL Index (Time to Live): Automatically deletes documents after a specified time, which can help optimize query performance by reducing dataset size over time.
+
+================================================================================================================================
+
+5) MongoDB performence improvement techniques
+ Indexing -> Creating Index for appropritate fields for retrieve data
+ 
+ Aggretaion -> use aggregation for process the large volume data, with different stages of pipeline
+               using the "$match" and "$project" pipeline filter the unwanted documents
+ Cache      -> Cacheing the repeated queries result
+
+ Sharding   -> Partitioning the large volume of data into multiple replicas (duplicate sets)

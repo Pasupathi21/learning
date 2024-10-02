@@ -68,5 +68,33 @@ concurrency and parallelism in node.js
                    parallely, each process communicate with IPC(inter process communication). and also cluster will use same port for all child processEVENT
 
 what is event driven architecture ?
+    
 
-what is stream in node.js    
+what is stream in node.js ? 
+Ref: https://github.com/Pasupathi21/JS-Exercise/blob/main/src/practices/node-stream.js]
+
+        A stream in Node.js is an abstract interface used to handle data in a continuous, efficient manner, 
+    especially useful for handling large volumes of data. 
+        Streams process data piece by piece (in chunks) rather than all at once, 
+    allowing Node.js to handle large amounts of data efficiently without loading everything into memory at once.
+
+    Streams also emit events that help manage the flow of data.
+        data:   Emitted when a chunk of data is available to read.
+        end:    Emitted when there is no more data to read.
+        error:  Emitted when an error occurs during the streaming process.
+        finish: Emitted when all data has been written.
+
+==================================================================================================
+
+what is API ?
+    API (Application Programming Interface), It is a piece of code can able to integrate different application or plateform.
+    Eg: REST API(Representational state transfer)
+
+==================================================================================================
+types of API's ?
+    Web API's
+        i) REST     -> Representational state transfe, GET, POST, PUT, PATCH and DELETE 
+       ii) GraphQL  -> Allows clients to request only the data they need in a flexible query format.
+      iii) SOAP     -> Simple Object Access Protocal, A more complex protocol than REST, uses XML for requests and responses.
+       iv) gRPC     -> Google Remote Procedure Call, Uses Protocol Buffers (binary format) for fast performance. Primarily used for microservices and internal communication within distributed systems.
+                        Eg: Google Services      

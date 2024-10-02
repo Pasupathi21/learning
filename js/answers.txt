@@ -128,3 +128,24 @@ types of functions in JAVASCRIPT
 
 -----------------------------------------------------------------------------------------------------------
 
+what is prototype in javascript ?
+    In JavaScript, arrays, objects, and functions are all able to access methods from their prototype. 
+Arrays access methods like .map() from Array.prototype, while objects access methods like .hasOwnProperty() from Object.prototype. 
+The prototype chain can be accessed via the __proto__ property, though it's better to use Object.getPrototypeOf() for direct prototype access.
+
+-----------------------------------------------------------------------------------------------------------
+
+what is prototype inheritance in javascript ?
+    Prototype inheritance in javascript, Each data type have comes with own set of some prototype property in javascript,
+    We can access the all methods from it's prototype property or directly, that is called prototype inheritance.
+
+OOPS in javascript ?
+
+
+generator function and use ?
+    A generator function in JavaScript is a special type of function that can pause its execution and later resume from where it left off. 
+    It provides a powerful way to manage control flow, allowing values to be produced lazily one at a time, rather than all at once. 
+    Generator functions are declared using the function* syntax, and inside them, the yield keyword is used to pause execution and return a value.
+
+symbol and iterators in javascrit ?
+
