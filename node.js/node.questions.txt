@@ -37,22 +37,47 @@ Node.js basic 1:
 Node.js basic 2:
 
 1) what is npm explain
+    NPM (Node Package Manager) is the default package manager for Node.js. 
+    It is a tool that helps developers manage JavaScript packages (modules) and dependencies for their projects. It comes bundled with Node.js, 
+    so when you install Node.js, NPM is installed automatically.
 
 2) why using npm.
 
 3) how to initiate the node.js project
 
 4) what is package.json and package-lock.json and difference.
+    Both package.json and package-lock.json are essential files in a Node.js project that help manage dependencies. 
+    While they serve related purposes, they have distinct roles.
+
+
 
 5) what is express.js and why using express.js
 
 6) give basic folder structure for node with express.js
 
 7) what is node_modules
+    The node_modules folder is a directory automatically created by NPM (Node Package Manager) when you install dependencies for a Node.js project using the npm install command. 
+    It contains all the packages (or modules) and their dependencies that your project requires.
 
 8) how to add and remove package in node_modules.
+    Adding packages:
+        npm install nodemon -> install package 
+        npm install -g nodemon -> install packages to globally
+        npm install nodemon --save-dev -> add to devDependencies
+    
+    Remove package:
+        npm uninstall nodemon -> remove package from node_modules
+
+
 
 9) difference between dependencies and devDependencies and usages.
+    dependencies:
+        These are the packages required for the project to run in production. 
+        They include libraries and tools essential for the core functionality of your application.
+    
+    devDependencies:
+        These are the packages required only during development. 
+        They include tools used for tasks like testing, linting, compiling, or building the project.
 
 ========================================================================
 
