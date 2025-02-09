@@ -147,5 +147,5 @@ generator function and use ?
     It provides a powerful way to manage control flow, allowing values to be produced lazily one at a time, rather than all at once. 
     Generator functions are declared using the function* syntax, and inside them, the yield keyword is used to pause execution and return a value.
 
-symbol and iterators in javascrit ?
+symbol and iterators in javascript ?
 
