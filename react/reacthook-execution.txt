@@ -10,3 +10,13 @@ React hook execution order:
     7) useImperativeHandle: Runs during the render phase
     8) useLayoutEffect: synchronous type of running , runs after DOM update and before component re-rendesr time
     9) useEffect: asynchronous type of ruuning,This will not affect UI render while running this hook (Called after UI fully render)
+
+10-2-2025
+1️⃣ useState / useReducer → Initialize state.
+2️⃣ useContext → Access values from React context.
+3️⃣ useMemo → Memoize expensive calculations before rendering.
+4️⃣ useCallback → Memoize functions before rendering.
+5️⃣ useRef → Stores a mutable value or DOM reference (does not cause re-renders).
+6️⃣ useImperativeHandle → Customizes values exposed via forwardRef() (runs during render).
+7️⃣ useLayoutEffect → Runs synchronously after the DOM update but before the paint.
+8️⃣ useEffect → Runs asynchronously after the UI is painted (does not block rendering).

@@ -5,8 +5,15 @@ git link: https://github.com/sudheerj/reactjs-interview-questions
 react fundamentals basic 1
 
 1) what is react why using react.
+    React is a JavaScript library for building interactive user interfaces (UIs), primarily for single-page applications (SPAs). 
+    It allows developers to create reusable UI components that update efficiently using a virtual DOM. 
+    React was developed by Facebook (now Meta) and is maintained as an open-source project.
 
 2) react is library or framework.
+    React is considered a library rather than a framework because it primarily focuses on building user interfaces 
+    and does not enforce strict rules for structuring an application.
+    - React is mainly responsible for rendering components efficiently using its virtual DOM.
+    - It does not include built-in solutions for routing, state management, or API handling (unlike frameworks like Angular or Next.js).
 
 3) difference between library and framework.
  library:
@@ -204,3 +211,76 @@ react fundamentals basic 3
         iii) Provides different hooks for handling state and side-effects
         iv) modern react uses only functional component.
 
+
+===================================================================================
+
+11-02-2025
+
+1) What is Virtual DOM ?
+    The Virtual DOM (VDOM) in React is a lightweight copy of the actual DOM (Document Object Model) 
+    that helps improve performance by reducing direct manipulations of the real DOM.
+
+    How it Works:
+        Render Phase: When a component’s state or props change, React creates a new Virtual DOM tree.
+        Diffing: React compares the new Virtual DOM with the previous one (using the reconciliation process) to find changes.
+        Updating: Only the changed parts are updated in the real DOM, instead of re-rendering the entire page.
+
+2) What is JSX ?
+    JSX (JavaScript XML) is a syntax extension for JavaScript used in React to describe what the UI should look like. 
+    It allows you to write HTML-like code within JavaScript, making it easier to create React components.
+
+3) statefull and stateless components in react ?
+    In React, components can be classified based on whether they manage state or not.
+
+    State-full:
+        ✅ Maintain their own internal state using useState (for functional components) or this.state (for class components).
+        ✅ Typically handle logic, data fetching, and user interactions.
+        ✅ Re-render when state changes.
+    State-less:
+        ✅ Do not maintain state.
+        ✅ Only receive props and return JSX.
+        ✅ Used mainly for UI rendering and reusability.
+
+4) What are the components in React ?
+    Components are the building blocks of a React application.
+    They are reusable, self-contained pieces of UI that manage their own logic and rendering.
+    Types of Components in react
+        Class
+        Function
+
+5) What are keys in React, and why are they important?
+    Keys are unique identifiers assigned to elements in a list to help React efficiently update and render components. 
+    They help React track which items have changed, been added, or removed.
+
+    Why Are Keys Important?
+    ✔ Optimized Rendering – Helps React identify changes and update only modified elements instead of re-rendering the entire list.
+    ✔ Avoids UI Bugs – Prevents incorrect reordering or duplication of elements.
+    ✔ Better Performance – Improves reconciliation (the process React uses to update the DOM).
+
+6) What is the purpose of useEffect?
+    useEffect is a React Hook that lets you perform side effects in functional components. 
+    It replaces lifecycle methods like componentDidMount, componentDidUpdate, and componentWillUnmount in class components.
+
+    Common Use Cases:   
+    ✔ Fetching data from an API 📡
+    ✔ Subscribing to events or WebSockets 📢
+    ✔ Updating the document title 📝
+    ✔ Setting up and cleaning up timers ⏳
+
+7) What is the difference between controlled and uncontrolled components?
+
+    Image: img/controll-and-uncontroll-components.png
+
+8) What is the Context API in React?
+    The Context API is a React feature that allows you to share state across the component tree without passing props manually at every level. 
+    It provides a way to avoid "prop drilling"—the process of passing data from parent components to deeply nested child components through props.
+
+9) What is Prop Drilling?
+    Prop drilling refers to the process of passing data (or props) from a parent component down to deeply nested child components. 
+    This can become problematic when you have a large component tree, 
+    As you may need to pass props through multiple layers of intermediate components that don't need the data themselves but have to forward it down to their children.
+
+10) What is React.Fragment?
+    **React.Fragment** is a special component provided by React that allows you to group multiple elements without adding an extra node to the DOM. 
+It acts as a wrapper for components without introducing an additional parent element, 
+which is particularly useful for managing layouts or returning multiple elements from a component while maintaining a clean DOM structure.
