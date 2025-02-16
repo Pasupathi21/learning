@@ -1,0 +1,168 @@
+16-02-2025
+
+1) What is SQL?
+    SQL (Structured Query Language) is a standard programming language used to communicate with relational databases. 
+    It allows users to create, read, update, and delete data, and provides commands to define database schema and manage database security
+
+2) What is a database?
+    A database is an organized collection of data that is stored and managed electronically, 
+    typically in a structured format, to allow easy access, management, and updating. 
+    It is designed to handle large volumes of data efficiently and can be used by individuals, applications, or organizations.
+
+3) What is a primary key?
+    A primary key is a unique identifier for a row (or record) in a database table. 
+    It ensures that each record in the table is uniquely identifiable and cannot contain duplicate or null values.
+
+4) What is a foreign key?
+    A foreign key is a column (or a set of columns) in a database table that establishes a relationship between two tables. 
+    It refers to the primary key in another table, creating a link between the two tables and enforcing referential integrity.
+
+5) What is constraints in database ?
+    In a database, constraints are rules or restrictions applied to columns in a table to enforce data integrity, accuracy, and reliability. 
+    They ensure that the data entered into the table adheres to specific rules, such as preventing duplicates or disallowing null values. 
+    Constraints help maintain consistency and avoid invalid or inconsistent data in the database.
+
+
+6) What is normalization in databases?
+
+    Normalization in databases is the process of organizing data into structured tables to reduce redundancy and improve data integrity. 
+    It involves breaking down a large table into smaller, more manageable tables and defining relationships between them using primary and foreign keys.
+
+    The primary goal of normalization is to minimize data duplication, avoid anomalies (insert, update, and delete anomalies), and ensure efficient data storage.
+
+
+7) What is denormalization, and when is it used?
+    Denormalization is the process of intentionally introducing redundancy into a database design to improve query performance. 
+    It involves combining tables or adding redundant data to reduce the need for complex joins and improve data retrieval speed
+
+8) What is a query in SQL?
+    A query is a SQL statement used to retrieve, update, or manipulate data in a database.
+
+9) What are the different operators available in SQL?
+
+    Arithmetic Operators: +, -, *, /, %
+    Comparison Operators: =, !=, <>, >, <, >=, <=
+    Logical Operators: AND, OR, NOT
+    Set Operators: UNION, INTERSECT, EXCEPT
+    Special Operators: BETWEEN, IN, LIKE, IS NULL
+
+
+10) What is a view in SQL?
+    A view in SQL is a virtual table that is created based on a query. 
+    It doesn’t store data physically but dynamically pulls data from one or more tables whenever it is accessed. 
+    Views are often used to simplify complex queries or provide an abstraction layer for users.
+
+11) Different types of SQL cammends ? 
+    Ref: img/sql-languages.png
+    -DDL    -TCL
+    -DQL
+    -DCL
+    -DML
+    ✅ 1. DDL (Data Definition Language): 
+        Used to define, create, and manage database schema and structures.
+
+    ✅ 2. DQL (Data Query Language): 
+        Focused specifically on querying data.
+
+    ✅ 3. DCL (Data Control Language): 
+        Used to control access to data in the database
+
+    ✅ 4. DML (Data Manipulation Language): 
+        Used for managing data within tables (inserting, updating, deleting, and retrieving).
+
+    ✅ 5. TCL (Transaction Control Language): 
+        Used to manage transactions and ensure data consistency.
+    
+13) What are aggregate functions in SQL?
+    In SQL, aggregate functions are built-in functions used to perform calculations on multiple rows of a table and return a single value. 
+    They are commonly used in conjunction with the GROUP BY clause to summarize or group data.
+    Eg: SUM() - Sum of all values,  
+        AVG() - Finding the average, 
+        MAX() - Retrun highest value of the column , 
+        MIN() - Retrun lowest value of the column 
+
+14)  What is a subquery?
+    A subquery in SQL is a query nested inside another SQL query. 
+    It is often referred to as an inner query, and the query that contains it is called the outer query. 
+    Subqueries are used to perform intermediate operations and pass their results to the outer query.
+
+    Placement: Subqueries can be used in various clauses, such as:
+        SELECT
+        FROM
+        WHERE
+        HAVING
+
+    Correlated Subquery:
+        Refers to columns in the outer query, meaning the subquery is executed repeatedly for each row of the outer query.
+
+        eg:
+        SELECT name, salary 
+        FROM Employees E1
+        WHERE salary > (SELECT AVG(salary) FROM Employees E2 WHERE E1.department_id = E2.department_id);
+
+    Scalar Subquery:
+        Returns exactly one value (one row and one column).
+        Commonly used in SELECT or comparison conditions.  
+
+        eg:
+        SELECT name, 
+       (SELECT MAX(salary) FROM Employees) AS highest_salary 
+        FROM Employees;
+
+
+
+
+15) types of clasues in SQL
+    In SQL, clauses are keywords used to define the structure and behavior of an SQL query. 
+    They determine what data to retrieve, filter, group, or manipulate from the database.
+    Clauses are building blocks of SQL queries and are used in specific contexts within 
+    SELECT - Retrive data from tables
+    INSERT - insert new data into the table
+    UPDATE - Update the existing data from table
+    DELETE - Delete data from table
+    FROM   - accessing table 
+
+
+16) What is the difference between the WHERE and HAVING clauses?
+    Ref: img/where-vs-having.png
+
+17) What are indexes, and why are they used?
+    An index in SQL is a data structure that improves the speed of data retrieval operations on a database table. 
+    It is like a "lookup table" that allows the database to find rows more quickly without scanning the entire table.
+
+    Types of index:
+        - Clusterd Index - (Cluster & Non-cluster)
+        - Unique Index - Only for unique fields
+        - Composite Index - Create index for multiple column with sames index name (for fast multiple column search)
+        - Full text Index - For advance text based search
+        - Spatial Index - Geograph data
+
+18) What is the difference between DELETE and TRUNCATE commands?
+    Ref: img/delete-vs-rollback.png
+
+19) What are the differences between SQL and NoSQL databases?
+    Ref: img/sql-nosql.png
+
+20) What is a table in SQL?
+    A table in SQL is a structured collection of related data, organized into rows and columns, that resides within a database. 
+    It is the fundamental building block for storing and managing data in a relational database.
+
+
+
+21) What are NULL values in SQL?
+
+    NULL represents a missing or unknown value. It is different from zero or an empty string. 
+    NULL values indicate that the data is not available or applicable.
+
+22)  What is a stored procedure?
+    A stored procedure is a precompiled collection of one or more SQL statements that are stored and executed on the database server. 
+    It allows you to encapsulate complex logic and repetitive tasks, making them reusable and more efficient.   
+
+    Key Features of a Stored Procedure:
+        Reusable:       Once created, it can be executed multiple times without rewriting the SQL statements.
+        Precompiled:    Stored procedures are precompiled and stored in the database, 
+                        leading to better performance since they don’t need to be parsed and optimized every time they are run.
+        Parameterized:  Stored procedures can accept input parameters, return output parameters, or both, enabling dynamic execution.
+        Encapsulation:  Complex business logic and operations can be encapsulated in a single procedure, simplifying application code.
+        Security:       Permissions can be granted for executing a stored procedure without granting direct access to the underlying tables.
+

@@ -284,3 +284,45 @@ react fundamentals basic 3
     **React.Fragment** is a special component provided by React that allows you to group multiple elements without adding an extra node to the DOM. 
 It acts as a wrapper for components without introducing an additional parent element, 
 which is particularly useful for managing layouts or returning multiple elements from a component while maintaining a clean DOM structure.
+
+
+15-02-2025
+1) What are the key features of React ?
+    Component based Architecture
+    Virtual DOM
+    JSX (Javascript XML)
+    Unidirectional Data flow
+    Declarative UI
+    Hooks
+    React Developer Tools
+    Server Side Rendering
+    Context API
+    React Router
+    High Performance
+
+2) Custom hooks in React ?
+    Custom hooks in React are JavaScript functions that allow you to reuse stateful logic across multiple components. 
+    They enable you to abstract and share functionality without duplicating code, making your codebase more modular and maintainable.
+
+    Advantages of Custom Hooks:
+        - Code Reusability
+        - Keep logic and presentation layers distinct.
+        - Reduce the size and complexity of components by moving logic into hooks.
+
+3) What is HOC's in react ?
+    Higher-Order Components (HOCs) in React are functions that take a component as an argument and return a new component with added functionality. 
+    They allow you to reuse logic and abstract common behaviors in your application.
+
+        - Encapsulate logic that can be shared across multiple components.
+        - Keep the original components focused on their primary responsibilities while separating shared functionality.
+        - Enable you to compose multiple HOCs together to enhance components.
+    Use Case:
+        - You need to add the same functionality to multiple components.
+        - The logic cannot easily be achieved with hooks or composition alone.
+
+4) What is Render props and usgaes ?
+    In React, render props is a pattern used to share logic between components by passing a function as a prop to a component. 
+    This function, called a render prop, determines what to render.
+
+     - Dynamic Rendering:
+        Lets the parent component decide how to render the child component using the shared logic.
