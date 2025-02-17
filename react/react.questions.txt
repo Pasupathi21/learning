@@ -326,3 +326,55 @@ which is particularly useful for managing layouts or returning multiple elements
 
      - Dynamic Rendering:
         Lets the parent component decide how to render the child component using the shared logic.
+
+17-02-2025
+5) What is code splitting in React?
+    Code splitting in React is an optimization technique that allows you to split your JavaScript bundle into smaller chunks, 
+    so only the code necessary for the current view is loaded. This improves the application's performance, especially for large apps, 
+    by reducing the initial load time and allowing the rest of the code to load on demand.
+
+    React achieves code splitting primarily using dynamic imports in combination with tools like React.lazy and React Suspense.
+
+
+ 6) What is the difference between useMemo and useCallback?
+    Ref: img/usememeo-and-usecallbac.png
+
+7) useMemo vs useCallback vs memo
+    Ref: img/usememo-usecallback-mmemo.png
+
+8) How does React handle performance optimization?
+    React provides several built-in mechanisms and tools to optimize performance in applications. 
+    These optimizations focus on minimizing unnecessary rendering, managing state efficiently, and reducing the computational overhead of operations. 
+    Below are key strategies and features React offers for performance optimization:
+
+    1) Virtual DOM
+    2) Reconciliation and Efficient Updates
+    3) Memoization
+    4) Code Splitting
+    5) Avoiding Unnecessary Renders
+    6) React Hooks for Optimization
+    7) React Developer Tools
+    8) Optimizing Lists
+    9) Managing State Efficiently
+    10) Avoid Anonymous Functions and Inline Values
+    11) Server-Side Rendering (SSR) and Static Site Generation (SSG)
+    12) Lazy Loading Images and Components
+    13) Avoiding Prop Drilling
+    14) Debouncing and Throttling
+
+9) What is the difference between React.PureComponent and React.Component?
+    Ref: img/component-purecomponent.png
+
+10) What is server-side rendering (SSR) in React?
+    Server-Side Rendering (SSR) is a technique used to render React components on the server rather than in the browser. With SSR, 
+the server generates the HTML for a page and sends it to the client. This makes the content of the page visible to the user immediately, 
+even before React fully hydrates on the client side.
+
+11) SSR vs CSR vs SSG:
+    Ref: img/sst-csr-ssg.png
+
+12)  How do you test React components?
+    Unit Test - Test individual components  (lib: Jest)
+    Integration Test - Test multiple components (lib: Jest)
+    end-to-end Test - Test entire application (lib/frameword: Cypress/Playwright)
+
