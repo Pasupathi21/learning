@@ -1,0 +1,36 @@
+1) Self Introduction    
+    I am Pasupathi, from Mettupalayam,  i had completed my Bachelors of computer science degree in Sri Ramakrishan Mission vidyalaya college of Arts and science
+And I have around 3 years of hand's on experience in web application developement area, using MERN stack, for front-end using React.js and Backend API using Node.js with 
+their frameworks like Express.js, Nest.js and Sails.js also, And i have good working knowledge in database management like MongoDB for NoSQL and
+Postgresql for SQL Databases.
+    I have worked on medium-scale ERP and CRM applications using the MERN stack. 
+I also have working knowledge of cloud services like AWS EC2 for application hosting and S3 for cloud storage.
+
+2) Roles and Responsibilities
+        I worked as a Full Stack Developer at Hyperready Technology, 
+    where I was involved in the end-to-end development process, handling both backend and frontend development.
+
+    Backend Development
+            Designed and developed RESTful APIs using Node.js with Express.js, Nest.js, and Sails.js.
+        Implemented authentication and authorization mechanisms (JWT, OAuth).
+        Integrated third-party APIs and services for extended functionality.
+        Optimized database queries in MongoDB and PostgreSQL to improve performance.
+
+    Frontend Development
+            Built interactive and responsive UI using React.js with state management tools like Redux Toolkit.
+        Developed reusable Material-UI (MUI), Tailwind css components to ensure UI consistency.
+        Implemented client-side routing and API integrations.
+
+    Cloud & Deployment
+            Deployed applications on AWS EC2 with NGINX as a reverse proxy.
+        Configured AWS S3 for file storage and management.
+
+    Performance Optimization & Security
+            Improved API response times through caching strategies (Redis, Bull queue).
+        Identified and fixed performance bottlenecks in database queries and frontend rendering.
+        Ensured application security by implementing proper CORS, CSRF protection, and input validation.
+        
+    Project Collaboration & Best Practices
+            Worked in Agile/Scrum environments, participating in daily standups and sprint planning.
+        Followed best coding practices with code reviews, version control (Git), and documentation.
+        Collaborated with cross-functional teams, including designers and DevOps engineers

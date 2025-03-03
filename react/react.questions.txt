@@ -167,7 +167,18 @@ react fundamentals basic 3
 17) explain redux
 
 18) AOT and JIT compilation 
-
+    Ahead-of-Time(AOT):
+        Use AOT for better performance and SEO (e.g., Next.js SSG/SSR, production builds).  
+        During build (before execution)
+        Faster (precompiled output)
+        Limited (precompiled)
+        Better for production mode
+    Just-in-Time(JIT):
+        Use JIT for flexibility and dynamic content (e.g., development mode, CSR, dashboards).
+        At runtime (in the browser)
+        Slower (compilation happens at runtime)
+        High (dynamic execution)
+        better for developement mode 
 ===================================================================================
 
 1) state and props difference
@@ -376,5 +387,5 @@ even before React fully hydrates on the client side.
 12)  How do you test React components?
     Unit Test - Test individual components  (lib: Jest)
     Integration Test - Test multiple components (lib: Jest)
-    end-to-end Test - Test entire application (lib/frameword: Cypress/Playwright)
+    end-to-end Test - Test entire application (lib/framework: Cypress/Playwright)
 
