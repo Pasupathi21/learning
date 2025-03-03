@@ -17,7 +17,7 @@ react fundamentals basic 1
 
 3) difference between library and framework.
  library:
-     A library is a collection of reusable functions, modules, or components that you can call when neede
+     A library is a collection of reusable functions, modules, or components that you can call when needed
 
  framework:
     A framework provides a structured environment or "skeleton" for building applications, enforcing certain rules and patterns
