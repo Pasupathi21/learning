@@ -1,0 +1,14 @@
+
+HR:
+1) Is the company product-based or service-based?
+
+2) Am I being hired for a product-based or service-based project?
+
+3) Where is the office located ?
+
+4) What are the office timing and working days per week?
+
+Manager:
+1) What projects are currently ongoing ?
+
+2) Which technologies does the company primarily focus on ?

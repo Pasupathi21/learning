@@ -1,0 +1,121 @@
+1) Self Introduction    
+    I am Pasupathi, from (Mettupalayam/ Coimbatore),  i had completed my Bachelors of computer science degree in Sri Ramakrishan Mission vidyalaya college of Arts and science
+And I have around 3 years of hand's on experience in web application developement area, using MERN stack, for front-end using React.js and Backend API using Node.js with 
+their frameworks like Express.js, Nest.js and Sails.js also, And i have good working knowledge in database management like MongoDB for NoSQL and
+Postgresql for SQL Databases.
+    I have worked on medium-scale ERP and CRM applications using the MERN stack. 
+I also have working knowledge of cloud services like AWS EC2 for application hosting and S3 for cloud storage.
+
+=========================================================================================================================================================================
+2) Roles and Responsibilities
+        I worked as a Full Stack Developer at Hyperready Technology, 
+    where I was involved in the end-to-end development process, handling both backend and frontend development.
+
+    Explanation for work flow:
+
+        Task Estimation – Analyze requirements and provide time estimates for development tasks.
+        Design – Plan system architecture, database structure, and user interface components.
+        Development – Write clean, efficient, and scalable code to implement features and functionality.
+        Unit Testing – Test individual components to ensure they work as expected and meet requirements.
+        Deployment – Configure and deploy applications to production or staging environments.
+        Bug Fixing – Identify, debug, and resolve issues to improve system stability and performance.
+
+
+    Tech Stack Explanation:
+        Backend Development
+                Designed and developed RESTful APIs using Node.js with Express.js, Nest.js, and Sails.js.
+            Implemented authentication and authorization mechanisms (JWT, OAuth).
+            Integrated third-party APIs and services for extended functionality.
+            Optimized database queries in MongoDB and PostgreSQL to improve performance.
+
+        Frontend Development
+                Built interactive and responsive UI using React.js with state management tools like Redux Toolkit.
+            Developed reusable Material-UI (MUI), Tailwind css components to ensure UI consistency.
+            Implemented client-side routing and API integrations.
+
+        Cloud & Deployment
+                Deployed applications on AWS EC2 with NGINX as a reverse proxy.
+            Configured AWS S3 for file storage and management.
+
+        Performance Optimization & Security
+                Improved API response times through caching strategies (Redis, Bull queue).
+            Identified and fixed performance bottlenecks in database queries and frontend rendering.
+            Ensured application security by implementing proper CORS, CSRF protection, and input validation.
+            
+        Project Collaboration & Best Practices
+                Worked in Agile/Scrum environments, participating in daily standups and sprint planning.
+            Followed best coding practices with code reviews, version control (Git), and documentation.
+            Collaborated with cross-functional teams, including designers and DevOps engineers
+
+==================================================================================================================================================
+
+3) Tell me about yuor current project ?
+    I have worked on two projects: one is an ERP-based application, 
+    and the other is a management application for meeting hall booking application.
+
+  Hight level functionality:
+    ERP: 
+        For the ERP application, we customized and developed modules such as User Management, Inventory, Sales, and Reports. 
+    This application is primarily used for jewelry products. 
+
+    Management Application:
+        For the Hall Booking Management application, users can create rooms, book rooms, view booked rooms in a calendar view, and download booking reports. 
+        It also includes a user management module.
+
+  Technology:
+    ERP: 
+        For the ERP application, we used the Frappe framework with ERPNext, a fully customizable full-stack framework based on Python.
+        Frontend: HTML, CSS, and JavaScript
+        Backend: Python
+        Database: MariaDB (SQL)
+
+    Management Application:
+        The Hall Booking application is developed using the MERN stack.
+        Frontend: Vite React with TypeScript, using ShadCN and Tailwind CSS for UI.
+        Backend: Node.js with the Nest.js framework.
+        Database: PostgreSQL
+  Model:
+    For both application we followed Agile Methodology
+
+=========================================================================================================================================================
+
+4) Technical design of Projects
+
+    Backend
+     i) Implements the Model-View-Controller architecture to separate concerns and improve code maintainability.
+     ii)  Enables communication between the frontend and backend using RESTful endpoints for data exchange.
+     iii)  Uses Nest.js’s built-in dependency injection to manage service instances efficiently and promote modularity.
+     iv)  Implements JSON Web Token (JWT) to secure user authentication and enforce role-based access control.
+     v) Integrates WebSockets to enable real-time data updates and bidirectional communication between clients and the server.
+ 
+    Frontend
+     i)  Manages global state efficiently using Redux Toolkit for complex state management and Context API for lightweight state sharing.
+     ii) Optimizes performance by dynamically loading components only when needed, reducing initial load time and improving user experience.
+
+=========================================================================================================================================================
+5) Rate your-self in skills 1-10?
+
+    for front-end -> 7/10
+    for back-end ->  8/10
+
+=========================================================================================================================================================
+6) working on weekends in devlivery time
+
+    Yes, If required during delivery time, I am willing to work on weekends
+=========================================================================================================================================================
+7) Time Management  
+    i) Requirements changed last moment
+    ii) Extra workload
+    iii)Learn new technology
+    iv) Project with tight deadline
+
+    Yes, I have faced similar situations in all my projects. 
+What I usually do is collaborate with my TL and PM to prioritize tasks based on their importance. 
+If the work genuinely requires extra time, we provide a proper justification to the authorized person to request a timeline extension.
+
+=========================================================================================================================================================
+
+11) why are you switching your previous company ?
+    In my previous company, the technology stack was transitioning from MERN to the Frappe framework, which is more of a low-code/no-code platform. 
+    While I appreciate the experience, I am passionate about full-fledged development and working on end-to-end solutions. 
+    I am looking for a role where I can leverage my expertise in coding and build scalable applications.
