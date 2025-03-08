@@ -8,4 +8,4 @@ What is Object Oriented Programming ?
         Encapsulation – Hiding the internal details and exposing only necessary parts.
         Abstraction – Hiding complex implementation and showing only essential details.
         Inheritance – Allowing a class to derive properties and behavior from another class.
-        Polymorphism – Enabling a single interface to be used for different data types.
+        Polymorphism – Enabling a single interface to be used for different data types. 
