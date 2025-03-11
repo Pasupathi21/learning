@@ -166,3 +166,15 @@
         Encapsulation:  Complex business logic and operations can be encapsulated in a single procedure, simplifying application code.
         Security:       Permissions can be granted for executing a stored procedure without granting direct access to the underlying tables.
 
+
+Query updation
+update Shippings as s
+set status = 'Dispatched'
+where s.customer in (
+  select c.customer_id 
+  from Customers as c
+  left join Orders as o on o.customer_id = c.customer_id
+  group by c.customer_id 
+  having count(o.customer_id) <= 1
+)
+
