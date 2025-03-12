@@ -1,0 +1,62 @@
+12-03-2025
+
+BACKEND:
+
+1) What is SQL injection ?
+    SQL injection happens when user input is inserted directly into a query without proper handling
+
+2) How to prevent SQL injection 
+    Instead of writing raw SQL, use Sequelize ORM will automatically prevent SQL injection  
+    ORM's like - Sequelize or Prisma supports DB's MySQL, PostgreSQL, SQLite, MSSQL
+
+3) Server side rendering in node.js
+    Server-Side Rendering (SSR) means rendering a web page on the server instead of the browser. 
+    The server generates the final HTML and sends it to the client. 
+    This improves SEO, initial load speed, and user experience.
+
+    view engines: pug, ejs
+
+4) Waht is Multer in Node.js ?
+    Multer is a middleware for handling multipart/form-data, primarily used for file uploads in Node.js applications. 
+    It works with Express.js and helps process files uploaded via HTML forms or APIs.
+    
+    single file upload: mulyter_instance.single('key_name')
+    multiple file upload: mulyter_instance.array('key_name')
+
+5) In node.js what are the techniques are used to optimization the backend ?
+
+   i) Optimize Database Queries:
+        - Use Indexing: Speed up queries with indexes (CREATE INDEX).
+        - Avoid SELECT *: Fetch only required columns.
+        - Use Pagination: Limit data (LIMIT OFFSET in SQL).
+        - Cache Frequent Queries: Use Redis or Memcached.
+        - Use an ORM Efficiently: Optimize queries in Sequelize, Prisma, or Mongoose.
+
+    ii) Use Caching (Redis, Memory):
+        - Use Redis/Memcached for storing frequently accessed data.
+        - Use in-memory caching with node-cache.
+
+    iii) Use Asynchronous Processing & Queues
+        - Use Message Queues like RabbitMQ or Bull (Redis-based).
+        - Use Worker Threads for CPU-intensive tasks.
+
+    iv)  Optimize Middleware & Routing
+        - Use compression middleware to reduce response size.
+        - Use helmet for security and performance.
+        - Use a Load Balancer (NGINX) for handling traffic efficiently.
+
+    v) Optimize API Performance (Reduce Payload)
+        - Use Gzip Compression: compression package.
+        - Limit JSON Response Size: Send only required fields.
+        - Use Content Delivery Network (CDN) for static files.
+
+    vi) Use Clustering & Load Balancing
+       - Use cluster module to run multiple instances of Node.js. 
+       - Use PM2 to manage multiple Node.js processes.
+
+    vii) Optimize Memory Usage & Garbage Collection
+        - Monitor memory usage with node --inspect.
+        - Avoid global variables.
+        - Use streaming for large data processing.
+
+    summary: learning\technical-round\img\nodejs-optimization-technique.png

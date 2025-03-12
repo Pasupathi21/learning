@@ -168,6 +168,7 @@
 
 
 Query updation
+
 update Shippings as s
 set status = 'Dispatched'
 where s.customer in (
