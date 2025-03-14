@@ -389,3 +389,28 @@ even before React fully hydrates on the client side.
     Integration Test - Test multiple components (lib: Jest)
     end-to-end Test - Test entire application (lib/framework: Cypress/Playwright)
 
+
+14-03-2025
+
+1) useReducer and Redux difference 
+2) What is Synthetic events in React
+3) How event loop works
+4) How to write a prototypal promise 
+5) What is the use of bind in class component
+6) How to use useMemo in React
+7) Increase and enhance the React application performance
+8) Package.json and package-lock.
+9) forEach and Map method difference
+10) symantic tages in HTML and give brief explanation   
+11) In-line and Block elements in HTML
+12) CSS positions
+13) Explain Redux flow 
+14) Psudo classes and psudo elements difference
+
+
+15) ES6 new features
+16) Async await
+17) Rest spread operators
+18)Array flat without any inbuilt methods
+19) About hooks
+20) Context API
