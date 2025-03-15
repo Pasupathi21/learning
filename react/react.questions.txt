@@ -401,7 +401,22 @@ even before React fully hydrates on the client side.
 7) Increase and enhance the React application performance
 8) Package.json and package-lock.
 9) forEach and Map method difference
+
 10) symantic tages in HTML and give brief explanation   
+    Semantic tags in HTML describe the meaning of the content to both the browser and developers. 
+    They improve readability, accessibility, and SEO.
+
+        ✅ Better Readability → Easy to understand for developers.
+        ✅ Improved SEO → Search engines understand content structure better.
+        ✅ Accessibility → Screen readers can interpret content correctly.
+        ✅ Consistent Styling → Easier to apply CSS with meaningful tags.
+    eg: 
+        <header>	Defines a page or section header
+        <nav>	    Defines navigation links
+        <section>	Groups related content
+        <article>	Represents independent, self-contained content (like a blog post)
+        <aside>	    Defines sidebar content
+    
 11) In-line and Block elements in HTML
 12) CSS positions
 13) Explain Redux flow 
