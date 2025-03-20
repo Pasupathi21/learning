@@ -1,0 +1,18 @@
+1. What is typescript and why using typescritp ?
+    TypeScript is a superset of JavaScript that adds static typing and other powerful features to JavaScript. 
+    It is developed and maintained by Microsoft. TypeScript code is compiled (transpiled) into JavaScript, 
+    so it can run in any browser or Node.js environment.
+
+    Key Features of TypeScript:
+        ✔ Static Typing – Detects errors at compile-time rather than runtime.
+        ✔ Type Inference – Automatically detects variable types.
+        ✔ Interfaces & Generics – Helps create reusable and flexible code.
+        ✔ Modern JavaScript Support – Supports ES6+ features while ensuring compatibility.
+        ✔ Object-Oriented Programming (OOP) – Supports classes, interfaces, and inheritance.
+        ✔ Better IDE Support – Provides autocomplete, better debugging, and refactoring.
+
+
+
+2. what is generic types in typescript ?
+    A generic type in TypeScript allows you to write reusable, flexible, and type-safe code by making functions, classes, 
+    and interfaces work with multiple types without losing type safety.
