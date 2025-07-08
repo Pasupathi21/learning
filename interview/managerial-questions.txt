@@ -49,7 +49,7 @@ I also have working knowledge of cloud services like AWS EC2 for application hos
 
 ==================================================================================================================================================
 
-3) Tell me about yuor current project ?
+3) Tell me about your current project ?
     I have worked on two projects: one is an ERP-based application, 
     and the other is a management application for meeting hall booking application.
 
