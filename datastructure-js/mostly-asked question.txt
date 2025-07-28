@@ -1,0 +1,122 @@
+Arrays & Strings
+Two Sum
+
+Problem: Find two numbers that add up to a target.
+
+Best Time to Buy and Sell Stock
+
+Maximum Subarray (Kadane’s Algorithm)
+
+Product of Array Except Self
+
+Set Matrix Zeroes
+
+Longest Substring Without Repeating Characters
+
+Sliding Window Maximum
+
+🔁 Linked Lists
+Reverse Linked List
+
+Detect Cycle in a Linked List
+
+Merge Two Sorted Lists
+
+Remove Nth Node From End of List
+
+Intersection of Two Linked Lists
+
+🔁 Stacks & Queues
+Valid Parentheses
+
+Min Stack
+
+Daily Temperatures
+
+Implement Queue using Stacks
+
+Largest Rectangle in Histogram
+
+🔁 Trees & Graphs
+Binary Tree Inorder/Postorder/Preorder Traversal
+
+Level Order Traversal (BFS)
+
+Lowest Common Ancestor (LCA)
+
+Invert Binary Tree
+
+Serialize and Deserialize Binary Tree
+
+Number of Islands
+
+Clone Graph
+
+Detect Cycle in Directed/Undirected Graph
+
+🔁 Recursion & Backtracking
+Permutations
+
+Combination Sum
+
+N-Queens
+
+Word Search
+
+Sudoku Solver
+
+🔁 Searching & Sorting
+Binary Search
+
+Search in Rotated Sorted Array
+
+Merge Intervals
+
+Kth Largest Element in an Array
+
+Top K Frequent Elements
+
+🔁 Dynamic Programming
+Climbing Stairs
+
+Longest Increasing Subsequence
+
+0/1 Knapsack
+
+Coin Change
+
+Longest Palindromic Substring
+
+Edit Distance
+
+House Robber
+
+🔁 Greedy
+Jump Game
+
+Gas Station
+
+Interval Scheduling
+
+Minimum Number of Platforms (Train Problem)
+
+🔁 Heaps / Priority Queues
+Merge K Sorted Lists
+
+Find Median from Data Stream
+
+Top K Frequent Words/Elements
+
+🔁 Tries
+Implement Trie (Prefix Tree)
+
+Word Search II
+
+Longest Word in Dictionary
+
+🔁 Bit Manipulation
+Single Number
+
+Number of 1 Bits
+
+Sum of Two Integers (without + or -)
